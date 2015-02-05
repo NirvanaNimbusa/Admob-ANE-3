@@ -85,3 +85,9 @@ admob.getScreenSize()
 
 
 contact:wohaosea@gmail.com
+
+
+if user like this lib,you can download and review our game <br/>
+https://itunes.apple.com/us/artist/phonegame/id553087275?mt=8 <br/>
+donate and download more ane  <br/>
+http://www.cuo.so/ane-list/index.html  <br/>
