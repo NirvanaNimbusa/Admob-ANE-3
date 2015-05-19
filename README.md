@@ -4,16 +4,16 @@ how to add admob native ad in flash air application run on ios and android ?<br/
 this adobe native extention(https://github.com/lilili87222/admob-for-flash/) make it easy,<br/>
 and I will show how to use it .<br/>
 Make sure you have had admob account(www.admob.com) and created a application before continue.<br/>
-download:https://github.com/lilili87222/admob-for-flash/archive/master.zip and get the lib file admob6.11.1.ane<br/>
+download:https://github.com/lilili87222/admob-for-flash/archive/master.zip and get the lib file admob20150519.ane<br/>
 
-admob ane 6.12.2 for air mobile ad ,support Interstitial and Banner<br/>
+admob ane 20150519 for air mobile ad ,support Interstitial and Banner<br/>
 support  landscape and portrait  and autoOrient<br/>
 support ios and android<br/>
 support all native event<br/>
-builed on admob ios sdk 6.12.2 and admob android sdk(Google Play services 4.5) 4.5<br/>
+builed on admob ios sdk 7.2.2 and admob android sdk(Google Play services 6.5) 6.5<br/>
 
 
-if you want to use it ,you need update  air sdk to  15.0 or higher <br/>
+if you want to use it ,you need update  air sdk to  17.0 or higher <br/>
 
 1. Import the API Classes
 ```
@@ -57,7 +57,7 @@ add uses permission and activity
 			     <application>
  <meta-data android:name="com.google.android.gms.version"
         android:value="@integer/google_play_services_version" />
-			  	   <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+			  	   <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent"/>
 			     </application>
 			</manifest>
 		]]></manifestAdditions>
